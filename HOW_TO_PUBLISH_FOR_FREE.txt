@@ -1,0 +1,19 @@
+GDB AUTOTECH - FREE CLOUDFLARE UPDATE
+
+This folder is the complete website files. For Cloudflare Workers Static Assets, upload the contents of this folder as your static website files (index.html plus the assets folder). Do not delete the existing live deployment until the new upload is ready.
+
+The website uses:
+- GDB Autotech logo
+- Navy / royal blue / yellow / white theme
+- Exact Google Maps location link supplied by the owner
+- Phone 07383828344
+- WhatsApp 07915741475
+- Email Gdbautotech@gmail.com
+
+
+Updated version:
+- Location is shown as Reading.
+- Product photos included for Meta Trak S5, Meta Trak S7 and GKU D600Pro Dash Cam.
+- Product descriptions added for Ghost Immobiliser, Meta Trak S5/S5 Deadlock, Meta Trak S7 and GKU D600Pro Dash Cam.
+- 1-year warranty messaging added for supplied products.
+- Meta Trak S5/S7 insurance-approved messaging added with insurer-category disclaimer.
