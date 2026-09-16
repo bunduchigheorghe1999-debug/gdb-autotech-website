@@ -3,46 +3,1182 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GDB Autotech | Vehicle Security & Trackers | Reading</title>
-<meta name="description" content="GDB Autotech Vehicle Security Specialists • Mobile Service • Reading, London & surrounding areas. Ghost Immobiliser, Meta Trak S7, Meta Trak S5, S5 Deadlock, Dash Cams and diagnostics.">
+
+<title>GDB Autotech | Vehicle Security, Trackers & Dash Cams | Reading</title>
+<meta name="description" content="GDB Autotech vehicle security specialists in Reading, London and surrounding areas. Ghost Immobiliser, Meta Trak S5 and S7, dash cams, diagnostics and mobile installation.">
+<meta name="robots" content="index,follow">
+
 <style>
-:root{--navy:#07164f;--blue:#17369b;--yellow:#ffd21a;--light:#f5f7fb;--text:#162039;--muted:#687086;--dark:#040a25;--green:#19b66a}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff;line-height:1.6}a{text-decoration:none;color:inherit}.container{width:min(1180px,92%);margin:auto}
-header{position:sticky;top:0;z-index:50;background:rgba(7,22,79,.98);border-bottom:3px solid var(--yellow);box-shadow:0 8px 30px rgba(0,0,0,.16)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;color:#fff;font-weight:900}.logo{width:54px;height:54px;border-radius:50%;object-fit:cover;background:#fff}.brand span{font-size:18px;letter-spacing:.8px}.navlinks{display:flex;gap:24px;color:#fff;font-weight:700;font-size:14px}.navlinks a:hover{color:var(--yellow)}
-.btn{display:inline-block;background:var(--yellow);color:var(--navy);font-weight:900;padding:13px 20px;border-radius:7px;box-shadow:0 8px 20px rgba(0,0,0,.12)}.btn-outline{background:transparent;color:#fff;border:2px solid var(--yellow);box-shadow:none}.btn-dark{background:var(--navy);color:#fff}
-.hero{background:linear-gradient(135deg,var(--navy),#102b87 60%,#07164f);color:#fff;padding:72px 0 78px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:3px;font-weight:900;color:var(--yellow);margin-bottom:12px}h1{font-size:clamp(42px,6vw,70px);line-height:1.02;letter-spacing:-2px;margin-bottom:20px}.hero h1 span{color:var(--yellow)}.hero p{font-size:18px;color:#dbe3ff;max-width:650px;margin-bottom:26px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-media{background:#fff;padding:9px;border-radius:15px;box-shadow:0 28px 65px rgba(0,0,0,.35)}.hero-media img{width:100%;height:520px;object-fit:cover;object-position:center;display:block;border-radius:9px}
-.trust{background:#fff;border-bottom:1px solid #e6e9f1}.trust-row{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:25px 0;text-align:center}.trust-item strong{display:block;color:var(--navy);font-size:16px}.trust-item span{font-size:12px;color:var(--muted)}
-section{padding:78px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 42px}.section-head h2{font-size:40px;line-height:1.1;color:var(--navy);margin-bottom:12px}.section-head p{color:var(--muted)}
-.products{background:var(--light)}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.product{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 12px 35px rgba(7,22,79,.09);border:1px solid #e8ebf2;display:flex;flex-direction:column}.product-img{background:#fff;padding:10px;height:310px;display:grid;place-items:center}.product-img img{width:100%;height:100%;object-fit:contain;transform:scale(1.06)}.product-body{padding:22px}.tag{display:inline-block;background:#eef2ff;color:var(--navy);padding:5px 9px;border-radius:20px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.7px;margin-bottom:9px}.product h3{font-size:21px;color:var(--navy);margin-bottom:8px}.product p{font-size:14px;color:var(--muted);margin-bottom:17px}.product .btn{width:100%;text-align:center;padding:11px}
-.feature-strip{background:var(--navy);color:#fff}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{padding:25px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(255,255,255,.04)}.feature .num{color:var(--yellow);font-size:12px;font-weight:900;letter-spacing:2px}.feature h3{margin:7px 0;color:#fff}.feature p{color:#cfd7f4;font-size:14px}
-.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.why{padding:28px;border-radius:12px;background:#fff;box-shadow:0 10px 30px rgba(7,22,79,.07);border-top:4px solid var(--yellow)}.why h3{color:var(--navy);margin-bottom:7px}.why p{color:var(--muted);font-size:14px}
-.process{background:#f8f9fc}.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{background:#fff;border-radius:12px;padding:24px;box-shadow:0 10px 28px rgba(7,22,79,.06)}.step-num{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:var(--navy);font-weight:900;margin-bottom:13px}.step h3{color:var(--navy);font-size:18px;margin-bottom:6px}.step p{color:var(--muted);font-size:13px}
-.cta{background:linear-gradient(135deg,#ffd21a,#f3b800);color:var(--navy);text-align:center;padding:68px 0}.cta h2{font-size:42px;line-height:1.1;margin-bottom:10px}.cta p{max-width:720px;margin:0 auto 24px}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.contact-box{background:var(--light);padding:30px;border-radius:14px}.contact-box h3{color:var(--navy);margin-bottom:18px}.row{display:flex;gap:12px;margin:16px 0}.row b{color:var(--navy)}.map-card{background:var(--navy);border-radius:14px;padding:35px;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center}.map-card h3{font-size:30px;margin-bottom:8px}.map-card p{color:#dce3ff;margin-bottom:22px}
-footer{background:var(--dark);color:#cbd3f4;padding:34px 0}.footer-grid{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-grid strong{color:#fff;font-size:19px}.small{font-size:12px}
-.mobile-bar{display:none}
-@media(max-width:980px){.navlinks{display:none}.hero-grid,.contact-grid{grid-template-columns:1fr}.product-grid{grid-template-columns:repeat(2,1fr)}.trust-row{grid-template-columns:repeat(2,1fr)}.feature-grid,.why-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){body{padding-bottom:72px}.nav{height:68px}.logo{width:48px;height:48px}.brand span{font-size:15px}.nav>.btn{display:none}.hero{padding:52px 0 58px}.hero-media{margin-top:10px}.hero-media img{height:300px}.product-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:1fr}.trust-row{grid-template-columns:1fr 1fr}.section-head h2,.cta h2{font-size:31px}section{padding:58px 0}.mobile-bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:100;background:var(--dark);padding:9px;gap:8px;border-top:2px solid var(--yellow)}.mobile-bar a{flex:1;text-align:center;padding:12px 5px;border-radius:6px;font-weight:900}.mobile-bar .call{background:#fff;color:var(--navy)}.mobile-bar .wa{background:var(--yellow);color:var(--navy)}}
-.diag-visual{background:linear-gradient(135deg,var(--navy),#17369b)!important;color:#fff;text-align:center}.diag-icon{font-size:52px;color:var(--yellow);line-height:1;margin-bottom:8px}.diag-visual strong{display:block;font-size:16px;letter-spacing:1px}.diag-visual span{display:block;color:#dbe3ff;font-size:11px;letter-spacing:1.5px;margin-top:3px}.mini-badge{display:inline-block;background:#fff8cf;color:var(--navy);border:1px solid #f2d83b;border-radius:6px;padding:6px 9px;font-size:11px;font-weight:900;margin:-4px 0 14px}.product-note{background:#fff;padding:0 0 20px}.note-box{background:#eef2ff;border-left:5px solid var(--yellow);padding:18px 20px;border-radius:10px;display:flex;gap:14px;align-items:flex-start}.note-box strong{color:var(--navy);white-space:nowrap}.note-box span{color:var(--muted);font-size:13px}@media(max-width:560px){.note-box{display:block}.note-box strong{display:block;margin-bottom:6px}}</style>
+:root{
+  --navy:#07164f;
+  --blue:#17369b;
+  --yellow:#ffd21a;
+  --light:#f5f7fb;
+  --text:#162039;
+  --muted:#687086;
+  --dark:#040a25;
+  --green:#19b66a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--text);
+  background:#fff;
+  line-height:1.6;
+}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:50;
+  background:rgba(7,22,79,.98);
+  border-bottom:3px solid var(--yellow);
+  box-shadow:0 8px 30px rgba(0,0,0,.16);
+}
+.nav{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:#fff;
+  font-weight:900;
+}
+.logo{
+  width:54px;
+  height:54px;
+  border-radius:50%;
+  object-fit:cover;
+  background:#fff;
+}
+.brand span{font-size:18px;letter-spacing:.8px}
+.navlinks{
+  display:flex;
+  gap:22px;
+  color:#fff;
+  font-weight:700;
+  font-size:14px;
+}
+.navlinks a:hover{color:var(--yellow)}
+
+.btn{
+  display:inline-block;
+  background:var(--yellow);
+  color:var(--navy);
+  font-weight:900;
+  padding:13px 20px;
+  border-radius:7px;
+  box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+.btn-outline{
+  background:transparent;
+  color:#fff;
+  border:2px solid var(--yellow);
+  box-shadow:none;
+}
+.btn-dark{background:var(--navy);color:#fff}
+
+.hero{
+  background:linear-gradient(135deg,var(--navy),#102b87 60%,#07164f);
+  color:#fff;
+  padding:72px 0 78px;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:52px;
+  align-items:center;
+}
+.eyebrow{
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  font-weight:900;
+  color:var(--yellow);
+  margin-bottom:12px;
+}
+h1{
+  font-size:clamp(42px,6vw,70px);
+  line-height:1.02;
+  letter-spacing:-2px;
+  margin-bottom:20px;
+}
+.hero h1 span{color:var(--yellow)}
+.hero p{
+  font-size:18px;
+  color:#dbe3ff;
+  max-width:650px;
+  margin-bottom:26px;
+}
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.hero-media{
+  background:#fff;
+  padding:9px;
+  border-radius:15px;
+  box-shadow:0 28px 65px rgba(0,0,0,.35);
+}
+.hero-media img{
+  width:100%;
+  height:520px;
+  object-fit:cover;
+  object-position:center;
+  display:block;
+  border-radius:9px;
+}
+
+.trust{
+  background:#fff;
+  border-bottom:1px solid #e6e9f1;
+}
+.trust-row{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+  padding:25px 0;
+  text-align:center;
+}
+.trust-item strong{
+  display:block;
+  color:var(--navy);
+  font-size:16px;
+}
+.trust-item span{
+  font-size:12px;
+  color:var(--muted);
+}
+
+section{padding:78px 0}
+.section-head{
+  text-align:center;
+  max-width:760px;
+  margin:0 auto 42px;
+}
+.section-head h2{
+  font-size:40px;
+  line-height:1.1;
+  color:var(--navy);
+  margin-bottom:12px;
+}
+.section-head p{color:var(--muted)}
+
+.products{background:var(--light)}
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+.product{
+  background:#fff;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 12px 35px rgba(7,22,79,.09);
+  border:1px solid #e8ebf2;
+  display:flex;
+  flex-direction:column;
+}
+.product-img{
+  background:#fff;
+  padding:10px;
+  height:310px;
+  display:grid;
+  place-items:center;
+}
+.product-img img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+.product-body{
+  padding:22px;
+}
+.tag{
+  display:inline-block;
+  background:#eef2ff;
+  color:var(--navy);
+  padding:5px 9px;
+  border-radius:20px;
+  font-size:11px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.7px;
+  margin-bottom:9px;
+}
+.product h3{
+  font-size:21px;
+  color:var(--navy);
+  margin-bottom:8px;
+}
+.product p{
+  font-size:14px;
+  color:var(--muted);
+  margin-bottom:17px;
+}
+.product .btn{
+  width:100%;
+  text-align:center;
+  padding:11px;
+}
+
+.feature-strip{
+  background:var(--navy);
+  color:#fff;
+}
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.feature{
+  padding:25px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:12px;
+  background:rgba(255,255,255,.04);
+}
+.feature .num{
+  color:var(--yellow);
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:2px;
+}
+.feature h3{margin:7px 0;color:#fff}
+.feature p{
+  color:#cfd7f4;
+  font-size:14px;
+}
+
+.gallery{
+  background:#fff;
+}
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+.gallery-grid img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:12px;
+  box-shadow:0 8px 25px rgba(7,22,79,.10);
+}
+
+.video-box{
+  max-width:900px;
+  margin:auto;
+  background:#07164f;
+  padding:12px;
+  border-radius:15px;
+  box-shadow:0 15px 40px rgba(7,22,79,.18);
+}
+.video-box video{
+  width:100%;
+  display:block;
+  border-radius:9px;
+  max-height:600px;
+  background:#000;
+}
+
+.areas{
+  background:var(--light);
+}
+.area-list{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+}
+.area{
+  background:#fff;
+  border:1px solid #e2e6ef;
+  padding:10px 15px;
+  border-radius:30px;
+  font-weight:700;
+  color:var(--navy);
+}
+
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.why{
+  padding:28px;
+  border-radius:12px;
+  background:#fff;
+  box-shadow:0 10px 30px rgba(7,22,79,.07);
+  border-top:4px solid var(--yellow);
+}
+.why h3{
+  color:var(--navy);
+  margin-bottom:7px;
+}
+.why p{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.process{
+  background:#f8f9fc;
+}
+.process-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+.step{
+  background:#fff;
+  border-radius:12px;
+  padding:24px;
+  box-shadow:0 10px 28px rgba(7,22,79,.06);
+}
+.step-num{
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:var(--yellow);
+  color:var(--navy);
+  font-weight:900;
+  margin-bottom:13px;
+}
+.step h3{
+  color:var(--navy);
+  font-size:18px;
+  margin-bottom:6px;
+}
+.step p{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.reviews{
+  background:#fff;
+}
+.review-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+.review{
+  background:var(--light);
+  border-radius:14px;
+  padding:25px;
+  border:1px solid #e5e8ef;
+}
+.stars{
+  color:#f5b900;
+  font-size:20px;
+  letter-spacing:2px;
+  margin-bottom:12px;
+}
+.review p{
+  color:var(--text);
+  font-size:14px;
+  margin-bottom:15px;
+}
+.review strong{color:var(--navy)}
+
+.cta{
+  background:linear-gradient(135deg,#ffd21a,#f3b800);
+  color:var(--navy);
+  text-align:center;
+  padding:68px 0;
+}
+.cta h2{
+  font-size:42px;
+  line-height:1.1;
+  margin-bottom:10px;
+}
+.cta p{
+  max-width:720px;
+  margin:0 auto 24px;
+}
+
+.contact{
+  background:#fff;
+}
+.contact-grid{
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:28px;
+}
+.contact-box{
+  background:var(--light);
+  padding:30px;
+  border-radius:14px;
+}
+.contact-box h3{
+  color:var(--navy);
+  margin-bottom:18px;
+}
+.row{
+  display:flex;
+  gap:12px;
+  margin:18px 0;
+}
+.row b{color:var(--navy)}
+.map-box{
+  overflow:hidden;
+  border-radius:14px;
+  min-height:420px;
+  box-shadow:0 10px 30px rgba(7,22,79,.10);
+}
+.map-box iframe{
+  width:100%;
+  height:100%;
+  min-height:420px;
+  border:0;
+}
+
+.enquiry{
+  background:var(--light);
+}
+.form-box{
+  max-width:850px;
+  margin:auto;
+  background:#fff;
+  padding:35px;
+  border-radius:15px;
+  box-shadow:0 12px 35px rgba(7,22,79,.09);
+}
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.form-group{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+.form-group.full{grid-column:1/-1}
+.form-group label{
+  font-weight:800;
+  color:var(--navy);
+  font-size:14px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea{
+  width:100%;
+  padding:13px;
+  border:1px solid #d9deea;
+  border-radius:7px;
+  font:inherit;
+  outline:none;
+}
+.form-group textarea{
+  min-height:140px;
+  resize:vertical;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+  border-color:var(--blue);
+}
+.form-submit{
+  margin-top:18px;
+  text-align:center;
+}
+.form-submit button{
+  border:0;
+  cursor:pointer;
+  font:inherit;
+}
+
+footer{
+  background:var(--dark);
+  color:#cbd3f4;
+  padding:55px 0 25px;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.4fr 1fr 1fr 1fr;
+  gap:35px;
+}
+.footer-col h3{
+  color:#fff;
+  margin-bottom:14px;
+  font-size:16px;
+}
+.footer-col a{
+  display:block;
+  margin:8px 0;
+  font-size:13px;
+}
+.footer-col a:hover{color:var(--yellow)}
+.footer-brand{
+  color:#fff;
+  font-size:21px;
+  font-weight:900;
+}
+.footer-small{
+  font-size:12px;
+  color:#aeb8dd;
+}
+.copyright{
+  border-top:1px solid rgba(255,255,255,.12);
+  margin-top:35px;
+  padding-top:20px;
+  text-align:center;
+  font-size:12px;
+  color:#8995c0;
+}
+
+.mobile-bar{
+  display:none;
+}
+
+@media(max-width:980px){
+  .navlinks{display:none}
+  .hero-grid,
+  .contact-grid{grid-template-columns:1fr}
+  .product-grid{grid-template-columns:repeat(2,1fr)}
+  .trust-row{grid-template-columns:repeat(2,1fr)}
+  .feature-grid,
+  .why-grid,
+  .review-grid{grid-template-columns:1fr}
+  .process-grid{grid-template-columns:repeat(2,1fr)}
+  .gallery-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:560px){
+  body{padding-bottom:72px}
+  .nav{min-height:68px}
+  .logo{width:48px;height:48px}
+  .brand span{font-size:15px}
+  .nav>.btn{display:none}
+  .hero{padding:52px 0 58px}
+  .hero-media{margin-top:10px}
+  .hero-media img{height:300px}
+  .product-grid,
+  .process-grid,
+  .gallery-grid,
+  .footer-grid,
+  .form-grid{grid-template-columns:1fr}
+  .trust-row{grid-template-columns:1fr 1fr}
+  .section-head h2,
+  .cta h2{font-size:31px}
+  section{padding:58px 0}
+  .form-group.full{grid-column:auto}
+  .form-box{padding:22px}
+  .mobile-bar{
+    display:flex;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:100;
+    background:var(--dark);
+    padding:9px;
+    gap:8px;
+    border-top:2px solid var(--yellow);
+  }
+  .mobile-bar a{
+    flex:1;
+    text-align:center;
+    padding:12px 5px;
+    border-radius:6px;
+    font-weight:900;
+  }
+  .mobile-bar .call{
+    background:#fff;
+    color:var(--navy);
+  }
+  .mobile-bar .wa{
+    background:var(--yellow);
+    color:var(--navy);
+  }
+}
+</style>
 </head>
+
 <body>
-<header><div class="container nav"><a href="#home" class="brand"><img src="/gdb-autotech-logo.jpeg" class="logo" alt="GDB Autotech logo"><span>GDB AUTOTECH</span></a><nav class="navlinks"><a href="#products">Products</a><a href="#why">Why GDB</a><a href="#process">How It Works</a><a href="#contact">Contact</a></nav><a class="btn" href="https://wa.me/447915741475">WhatsApp Us</a></div></header>
+
+<header>
+<div class="container nav">
+<a href="#home" class="brand">
+<img src="/gdb-autotech-logo.jpeg" class="logo" alt="GDB Autotech logo">
+<span>GDB AUTOTECH</span>
+</a>
+
+<nav class="navlinks">
+<a href="#products">Products</a>
+<a href="#gallery">Our Work</a>
+<a href="#why">Why GDB</a>
+<a href="#process">How It Works</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<a class="btn" href="https://wa.me/447915741475">WhatsApp Us</a>
+</div>
+</header>
+
 <main id="home">
-<section class="hero"><div class="container hero-grid"><div><div class="eyebrow">Vehicle Security Specialists • Reading</div><h1>PROTECT YOUR VEHICLE.<br><span>PROTECT YOUR INVESTMENT.</span></h1><p>Professional vehicle security, tracking, dash cameras and diagnostics — installed with care by GDB Autotech. MOBILE SERVICE — WE COME TO YOU AT YOUR LOCATION.</p><div class="hero-actions"><a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20vehicle%20security%20quote.">Get a Quote</a><a class="btn btn-outline" href="tel:07383828344">Call 07383 828344</a></div></div><div class="hero-media"><img src="/gdb-autotech-main-workshop.jpeg" alt="GDB Autotech workshop and vehicle security installation"></div></div></section>
-<section class="trust"><div class="container trust-row"><div class="trust-item"><strong>Professional Installation</strong><span>Careful & discreet fitting</span></div><div class="trust-item"><strong>Vehicle Security</strong><span>Protection built around your car</span></div><div class="trust-item"><strong>Local Specialist</strong><span>Reading,London and surrounding areas</span></div><div class="trust-item"><strong>1-Year Warranty</strong><span>All products supplied by GDB Autotech</span></div></div></section>
-<section id="products" class="products"><div class="container"><div class="section-head"><h2>Our Vehicle Security Products</h2><p>Choose the protection that suits your vehicle. Contact GDB Autotech for current fitted pricing and availability.</p></div><div class="product-grid">
-<article class="product"><div class="product-img"><img src="/ghost-ii-ad.png" alt="Ghost Immobiliser"></div><div class="product-body"><span class="tag">Immobiliser • 1-Year Warranty</span><h3>Ghost Immobiliser</h3><p>A discreet CAN-bus immobiliser that uses your vehicle’s own buttons and a unique PIN sequence to authorise driving. Designed to help protect against key cloning, relay theft and unauthorised starting. TASSA verified.</p><div class="mini-badge">1-Year Warranty</div><a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20a%20Ghost%20Immobiliser.">Enquire Now</a></div></article>
-<article class="product"><div class="product-img"><img src="/metatrak-s7-photo.jpeg" alt="Meta Trak S7"></div><div class="product-body"><span class="tag">Insurance Approved • Category S7</span><h3>Meta Trak S7</h3><p>Category S7 insurance-approved tracking with mobile-app vehicle tracking, unauthorised movement detection and 24/7 stolen-vehicle support. A strong recovery-focused option for vehicles where S7 tracking is required by the insurer.</p><div class="mini-badge">1-Year Warranty</div><a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20Meta%20Trak%20S7.">Enquire Now</a></div></article>
-<article class="product"><div class="product-img"><img src="/metatrak-s5-photo.jpeg" alt="Meta Trak S5 and S5 Deadlock"></div><div class="product-body"><span class="tag">Insurance Approved • Category S5</span><h3>Meta Trak S5 &amp; S5 Deadlock</h3><p>Category S5 insurance-approved protection with 24/7 stolen-vehicle support, driver recognition and app tracking. The S5 Deadlock option adds immobilisation so the vehicle cannot start without authorised recognition.</p><div class="mini-badge">1-Year Warranty</div><a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20Meta%20Trak%20S5%20or%20S5%20Deadlock.">Enquire Now</a></div></article>
-<article class="product"><div class="product-img"><img src="/gku-d600pro-dashcam.jpeg" alt="GKU D600Pro Dash Cam"></div><div class="product-body"><span class="tag">GKU D600Pro • 1-Year Warranty</span><h3>Dash Cam</h3><p>GKU D600Pro dual dash cam with 4K front and 1080p rear recording, built-in GPS, 5GHz Wi-Fi/app control, G-sensor emergency file locking, wide-angle lenses and parking monitoring when hardwired.</p><div class="mini-badge">1-Year Warranty</div><a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20the%20GKU%20D600Pro%20Dash%20Cam.">Enquire Now</a></div></article>
-<article class="product"><div class="product-img"><img src="/gdb-autotech-diagnostics.jpeg" alt="GDB Autotech car diagnostics service"></div><div class="product-body"><span class="tag">Workshop Service</span><h3>Car Diagnostics</h3><p>Vehicle fault-code scanning and diagnostic checks to help identify warning lights, electronic faults and system issues before they become bigger problems.</p><div class="mini-badge">Professional Service</div><a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20to%20book%20car%20diagnostics.">Enquire Now</a></div></article></div></div></section>
-<section class="product-note"><div class="container"><div class="note-box"><strong>Insurance-approved tracking &amp; 1-year warranty</strong><span>Meta Trak S5 and S7 are insurance-approved tracking categories. All products supplied and installed by GDB Autotech come with a 1-year warranty. Insurance requirements can vary, so always confirm the category required by your insurer.</span></div></div></section>
-<section class="feature-strip"><div class="container feature-grid"><div class="feature"><div class="num">01</div><h3>Professional Fitting</h3><p>We focus on neat, discreet installation and correct integration with your vehicle.</p></div><div class="feature"><div class="num">02</div><h3>Security First</h3><p>Solutions selected to help protect against modern vehicle theft and aid recovery.</p></div><div class="feature"><div class="num">03</div><h3>Local & Personal</h3><p>Speak directly with GDB Autotech for advice on the right product for your vehicle.</p></div></div></section>
-<section id="why"><div class="container"><div class="section-head"><h2>Why Choose GDB Autotech?</h2><p>SECURE. PROTECT. PREVENT.</p></div><div class="why-grid"><div class="why"><h3>Modern Technology</h3><p>Vehicle security and tracking products chosen for today's vehicles.</p></div><div class="why"><h3>Discreet Installation</h3><p>Professional fitting with attention to vehicle appearance and security.</p></div><div class="why"><h3>Complete Support</h3><p>From choosing a product to installation and aftercare, we're here to help.</p></div></div></div></section>
-<section id="process" class="process"><div class="container"><div class="section-head"><h2>How It Works</h2><p>Simple, straightforward vehicle protection.</p></div><div class="process-grid"><div class="step"><div class="step-num">1</div><h3>Tell Us Your Vehicle</h3><p>Send your make, model and year by WhatsApp or phone.</p></div><div class="step"><div class="step-num">2</div><h3>Choose Your Product</h3><p>We'll help you choose the right security solution for your needs.</p></div><div class="step"><div class="step-num">3</div><h3>Book Installation</h3><p>Agree a convenient date and location — we come to you.</p></div><div class="step"><div class="step-num">4</div><h3>Drive Protected</h3><p>We complete the installation and explain your system.</p></div></div></div></section>
-<section class="cta"><div class="container"><h2>READY TO PROTECT YOUR VEHICLE?</h2><p>Message GDB Autotech today for a fitted quote on Ghost, Meta Trak, Dash Cam or diagnostics.</p><a class="btn btn-dark" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20vehicle%20security%20quote.%20My%20vehicle%20is%3A%20">Message Us on WhatsApp</a></div></section>
-<section id="contact"><div class="container"><div class="section-head"><h2>Contact GDB Autotech</h2><p>Reading, London and surrounding areas.</p></div><div class="contact-grid"><div class="contact-box"><h3>Get In Touch</h3><div class="row">📞 <span><b>Phone</b><br><a href="tel:07383828344">07383 828344</a></span></div><div class="row">💬 <span><b>WhatsApp</b><br><a href="https://wa.me/447915741475">07915 741475</a></span></div><div class="row">✉️ <span><b>Email</b><br><a href="mailto:Gdbautotech@gmail.com">Gdbautotech@gmail.com</a></span></div><div class="row">📍 <span><b>Address</b><br>1 Cook Way, Reading, RG2 9ZD</span></div></div><div class="map-card"><div><h3>Find GDB Autotech</h3><p>Tap below to open the exact GDB Autotech location in Google Maps.</p><a class="btn" href="https://maps.app.goo.gl/QXsFuKunfjvZwLLX8?g_st=ic">Open Location</a></div></div></div></div></section>
+
+<section class="hero">
+<div class="container hero-grid">
+
+<div>
+<div class="eyebrow">Vehicle Security Specialists • Reading</div>
+
+<h1>
+PROTECT YOUR VEHICLE.<br>
+<span>PROTECT YOUR INVESTMENT.</span>
+</h1>
+
+<p>
+Professional vehicle security, tracking, dash cameras and diagnostics — installed with care by GDB Autotech.
+<strong>MOBILE SERVICE — WE COME TO YOU AT YOUR LOCATION.</strong>
+</p>
+
+<div class="hero-actions">
+<a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20vehicle%20security%20quote.">
+Get a Quote
+</a>
+
+<a class="btn btn-outline" href="tel:07383828344">
+Call 07383 828344
+</a>
+</div>
+</div>
+
+<div class="hero-media">
+<img src="/gdb-autotech-main-workshop.jpeg" alt="GDB Autotech vehicle security workshop">
+</div>
+
+</div>
+</section>
+
+<section class="trust">
+<div class="container trust-row">
+
+<div class="trust-item">
+<strong>Professional Installation</strong>
+<span>Careful & discreet fitting</span>
+</div>
+
+<div class="trust-item">
+<strong>Vehicle Security</strong>
+<span>Protection built around your car</span>
+</div>
+
+<div class="trust-item">
+<strong>Local Specialist</strong>
+<span>Reading, London & surrounding areas</span>
+</div>
+
+<div class="trust-item">
+<strong>1-Year Warranty</strong>
+<span>Products supplied by GDB Autotech</span>
+</div>
+
+</div>
+</section>
+
+<section id="products" class="products">
+<div class="container">
+
+<div class="section-head">
+<h2>Vehicle Security Products & Services</h2>
+<p>
+Professional security and vehicle technology solutions. Contact us for current fitted pricing and availability.
+</p>
+</div>
+
+<div class="product-grid">
+
+<article class="product">
+<div class="product-img">
+<img src="/ghost-ii-ad.png" alt="Ghost Immobiliser">
+</div>
+<div class="product-body">
+<span class="tag">Immobiliser • 1-Year Warranty</span>
+<h3>Ghost Immobiliser</h3>
+<p>
+A discreet CAN-bus immobiliser using your vehicle's own controls and a unique PIN sequence to authorise driving.
+</p>
+<a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20a%20Ghost%20Immobiliser.">
+Enquire Now
+</a>
+</div>
+</article>
+
+<article class="product">
+<div class="product-img">
+<img src="/metatrak-s7-photo.jpeg" alt="Meta Trak S7">
+</div>
+<div class="product-body">
+<span class="tag">Category S7 • 1-Year Warranty</span>
+<h3>Meta Trak S7</h3>
+<p>
+Insurance-approved vehicle tracking with app monitoring, movement alerts and stolen-vehicle support.
+</p>
+<a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20Meta%20Trak%20S7.">
+Enquire Now
+</a>
+</div>
+</article>
+
+<article class="product">
+<div class="product-img">
+<img src="/metatrak-s5-photo.jpeg" alt="Meta Trak S5 and S5 Deadlock">
+</div>
+<div class="product-body">
+<span class="tag">Category S5 • 1-Year Warranty</span>
+<h3>Meta Trak S5 & S5 Deadlock</h3>
+<p>
+Insurance-approved tracking with app monitoring and driver recognition. S5 Deadlock adds immobilisation.
+</p>
+<a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20Meta%20Trak%20S5%20or%20S5%20Deadlock.">
+Enquire Now
+</a>
+</div>
+</article>
+
+<article class="product">
+<div class="product-img">
+<img src="/gku-d600pro-dashcam.jpeg" alt="GKU D600Pro Dash Cam">
+</div>
+<div class="product-body">
+<span class="tag">Dash Cam • 1-Year Warranty</span>
+<h3>GKU D600Pro Dash Cam</h3>
+<p>
+Dual dash cam with 4K front recording, rear camera, GPS, Wi-Fi/app control and parking monitoring when hardwired.
+</p>
+<a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20quote%20for%20the%20GKU%20D600Pro%20Dash%20Cam.">
+Enquire Now
+</a>
+</div>
+</article>
+
+<article class="product">
+<div class="product-img">
+<img src="/gdb-autotech-diagnostics.jpeg" alt="GDB Autotech car diagnostics">
+</div>
+<div class="product-body">
+<span class="tag">Workshop Service</span>
+<h3>Car Diagnostics</h3>
+<p>
+Diagnostic scanning and fault-code checks to help identify warning lights, electronic faults and system issues.
+</p>
+<a class="btn" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20to%20book%20car%20diagnostics.">
+Enquire Now
+</a>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<section class="feature-strip">
+<div class="container feature-grid">
+
+<div class="feature">
+<div class="num">01</div>
+<h3>Professional Fitting</h3>
+<p>Neat, discreet installation with attention to vehicle appearance and security.</p>
+</div>
+
+<div class="feature">
+<div class="num">02</div>
+<h3>Security First</h3>
+<p>Solutions designed to help protect against vehicle theft and assist recovery.</p>
+</div>
+
+<div class="feature">
+<div class="num">03</div>
+<h3>Mobile Service</h3>
+<p>We can come to your location in Reading, London and surrounding areas.</p>
+</div>
+
+</div>
+</section>
+
+<section id="gallery" class="gallery">
+<div class="container">
+
+<div class="section-head">
+<h2>Our Work</h2>
+<p>Real GDB Autotech installation and workshop images.</p>
+</div>
+
+<div class="gallery-grid">
+
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.41%20(1).jpeg" alt="GDB Autotech installation">
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.41%20(2).jpeg" alt="GDB Autotech vehicle work">
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.41.jpeg" alt="GDB Autotech installation work">
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.42%20(1).jpeg" alt="GDB Autotech workshop">
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.42%20(2).jpeg" alt="GDB Autotech installation">
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.42%20(3).jpeg" alt="GDB Autotech vehicle security">
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.42%20(4).jpeg" alt="GDB Autotech installation">
+<img src="/WhatsApp%20Image%202026-09-16%20at%2012.46.42%20(5).jpeg" alt="GDB Autotech workshop">
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="section-head">
+<h2>See GDB Autotech In Action</h2>
+<p>Take a look at our work and workshop.</p>
+</div>
+
+<div class="video-box">
+<video controls preload="metadata">
+<source src="/WhatsApp%20Video%202026-09-16%20at%2012.51.38.mp4" type="video/mp4">
+Your browser does not support the video player.
+</video>
+</div>
+
+</div>
+</section>
+
+<section class="areas">
+<div class="container">
+
+<div class="section-head">
+<h2>Areas We Cover</h2>
+<p>Mobile vehicle security and installation service around Reading and surrounding areas.</p>
+</div>
+
+<div class="area-list">
+<span class="area">Reading</span>
+<span class="area">Wokingham</span>
+<span class="area">Bracknell</span>
+<span class="area">Maidenhead</span>
+<span class="area">Slough</span>
+<span class="area">Newbury</span>
+<span class="area">Basingstoke</span>
+<span class="area">London</span>
+<span class="area">Surrounding Areas</span>
+</div>
+
+</div>
+</section>
+
+<section id="why">
+<div class="container">
+
+<div class="section-head">
+<h2>Why Choose GDB Autotech?</h2>
+<p>SECURE. PROTECT. PREVENT.</p>
+</div>
+
+<div class="why-grid">
+
+<div class="why">
+<h3>Modern Technology</h3>
+<p>Vehicle security, tracking and camera solutions selected for modern vehicles.</p>
+</div>
+
+<div class="why">
+<h3>Discreet Installation</h3>
+<p>Professional fitting with attention to vehicle appearance and security.</p>
+</div>
+
+<div class="why">
+<h3>Complete Support</h3>
+<p>From choosing a product to installation and aftercare, we are here to help.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="process" class="process">
+<div class="container">
+
+<div class="section-head">
+<h2>How It Works</h2>
+<p>Simple, straightforward vehicle protection.</p>
+</div>
+
+<div class="process-grid">
+
+<div class="step">
+<div class="step-num">1</div>
+<h3>Tell Us Your Vehicle</h3>
+<p>Send your make, model and year by WhatsApp or phone.</p>
+</div>
+
+<div class="step">
+<div class="step-num">2</div>
+<h3>Choose Your Product</h3>
+<p>We'll help you choose the right security solution.</p>
+</div>
+
+<div class="step">
+<div class="step-num">3</div>
+<h3>Book Installation</h3>
+<p>Agree a convenient date and location — we come to you.</p>
+</div>
+
+<div class="step">
+<div class="step-num">4</div>
+<h3>Drive Protected</h3>
+<p>We complete the installation and explain your system.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="reviews">
+<div class="container">
+
+<div class="section-head">
+<h2>Customer Reviews</h2>
+<p>See what customers say about their experience with GDB Autotech.</p>
+</div>
+
+<div class="review-grid">
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<p>Professional service, clean installation and great communication.</p>
+<strong>GDB Autotech Customer</strong>
+</div>
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<p>Very helpful from choosing the product through to installation.</p>
+<strong>GDB Autotech Customer</strong>
+</div>
+
+<div class="review">
+<div class="stars">★★★★★</div>
+<p>Excellent attention to detail and a professional installation.</p>
+<strong>GDB Autotech Customer</strong>
+</div>
+
+</div>
+
+<div style="text-align:center;margin-top:28px">
+<a class="btn" href="https://maps.app.goo.gl/QXsFuKunfjvZwLLX8?g_st=ic" target="_blank">
+View GDB Autotech on Google Maps
+</a>
+</div>
+
+</div>
+</section>
+
+<section class="cta">
+<div class="container">
+<h2>READY TO PROTECT YOUR VEHICLE?</h2>
+<p>
+Message GDB Autotech today for a fitted quote on Ghost, Meta Trak, Dash Cam or diagnostics.
+</p>
+<a class="btn btn-dark" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20a%20vehicle%20security%20quote.%20My%20vehicle%20is%3A%20">
+Message Us on WhatsApp
+</a>
+</div>
+</section>
+
+<section id="enquiry" class="enquiry">
+<div class="container">
+
+<div class="section-head">
+<h2>Request a Quote</h2>
+<p>Tell us about your vehicle and what you are looking for. We'll get back to you by email.</p>
+</div>
+
+<div class="form-box">
+
+<form action="https://formsubmit.co/Gdbautotech@gmail.com" method="POST">
+
+<input type="hidden" name="_subject" value="New GDB Autotech Website Enquiry">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+
+<div class="form-grid">
+
+<div class="form-group">
+<label for="name">Name</label>
+<input id="name" type="text" name="name" required>
+</div>
+
+<div class="form-group">
+<label for="phone">Phone</label>
+<input id="phone" type="tel" name="phone" required>
+</div>
+
+<div class="form-group">
+<label for="email">Email</label>
+<input id="email" type="email" name="email" required>
+</div>
+
+<div class="form-group">
+<label for="vehicle">Vehicle</label>
+<input id="vehicle" type="text" name="vehicle" placeholder="Make, model and year">
+</div>
+
+<div class="form-group full">
+<label for="service">Service Required</label>
+<select id="service" name="service">
+<option>Ghost Immobiliser</option>
+<option>Meta Trak S7</option>
+<option>Meta Trak S5</option>
+<option>Meta Trak S5 Deadlock</option>
+<option>GKU D600Pro Dash Cam</option>
+<option>Car Diagnostics</option>
+<option>Other / Not Sure</option>
+</select>
+</div>
+
+<div class="form-group full">
+<label for="message">Message</label>
+<textarea id="message" name="message" placeholder="Tell us what you need..."></textarea>
+</div>
+
+</div>
+
+<div class="form-submit">
+<button class="btn" type="submit">Send Enquiry</button>
+</div>
+
+</form>
+
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container">
+
+<div class="section-head">
+<h2>Contact GDB Autotech</h2>
+<p>Reading, London and surrounding areas.</p>
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-box">
+
+<h3>Get In Touch</h3>
+
+<div class="row">
+📞
+<span>
+<b>Phone</b><br>
+<a href="tel:07383828344">07383 828344</a>
+</span>
+</div>
+
+<div class="row">
+💬
+<span>
+<b>WhatsApp</b><br>
+<a href="https://wa.me/447915741475">07915 741475</a>
+</span>
+</div>
+
+<div class="row">
+✉️
+<span>
+<b>Email</b><br>
+<a href="mailto:Gdbautotech@gmail.com">Gdbautotech@gmail.com</a>
+</span>
+</div>
+
+<div class="row">
+📍
+<span>
+<b>Location</b><br>
+1 Cook Way, Reading, RG2 9ZD
+</span>
+</div>
+
+<a class="btn" href="https://maps.app.goo.gl/QXsFuKunfjvZwLLX8?g_st=ic" target="_blank">
+Open Google Maps
+</a>
+
+</div>
+
+<div class="map-box">
+
+<iframe
+src="https://www.google.com/maps?q=1%20Cook%20Way,%20Reading,%20RG2%209ZD&output=embed"
+loading="lazy"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+</div>
+</section>
+
 </main>
-<div class="mobile-bar"><a class="call" href="tel:07383828344">📞 Call GDB</a><a class="wa" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20an%20enquiry.">💬 WhatsApp</a></div>
-<footer><div class="container footer-grid"><div><strong>GDB AUTOTECH</strong><br><span class="small">Vehicle Security • Tracking • Dash Cams • Diagnostics</span></div><div class="small">© 2026 GDB Autotech. All rights reserved.</div></div></footer>
-</body></html>
+
+<div class="mobile-bar">
+<a class="call" href="tel:07383828344">📞 Call GDB</a>
+<a class="wa" href="https://wa.me/447915741475?text=Hi%20GDB%20Autotech,%20I'd%20like%20an%20enquiry.">💬 WhatsApp</a>
+</div>
+
+<footer>
+
+<div class="container footer-grid">
+
+<div class="footer-col">
+<div class="footer-brand">GDB AUTOTECH</div>
+<p class="footer-small">
+Vehicle Security • Tracking • Dash Cams • Diagnostics
+</p>
+<p class="footer-small" style="margin-top:12px">
+Professional vehicle security specialists serving Reading, London and surrounding areas.
+</p>
+</div>
+
+<div class="footer-col">
+<h3>Quick Links</h3>
+<a href="#products">Products & Services</a>
+<a href="#gallery">Our Work</a>
+<a href="#why">Why GDB Autotech</a>
+<a href="#process">How It Works</a>
+<a href="#enquiry">Request a Quote</a>
+</div>
+
+<div class="footer-col">
+<h3>Contact</h3>
+<a href="tel:07383828344">07383 828344</a>
+<a href="https://wa.me/447915741475">WhatsApp</a>
+<a href="mailto:Gdbautotech@gmail.com">Gdbautotech@gmail.com</a>
+<a href="https://maps.app.goo.gl/QXsFuKunfjvZwLLX8?g_st=ic" target="_blank">Google Maps</a>
+</div>
+
+<div class="footer-col">
+<h3>Follow Us</h3>
+<a href="https://www.instagram.com/gdb_autotech/" target="_blank">Instagram</a>
+<a href="https://www.facebook.com/people/GDB-Autotech/61576001002860/" target="_blank">Facebook</a>
+<a href="#enquiry">Get a Quote</a>
+<a href="#contact">Contact GDB Autotech</a>
+</div>
+
+</div>
+
+<div class="container copyright">
+© 2026 GDB Autotech. All rights reserved.
+</div>
+
+</footer>
+
+</body>
+</html>
